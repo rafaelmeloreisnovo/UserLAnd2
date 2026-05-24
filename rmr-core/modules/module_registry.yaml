@@ -1,0 +1,21 @@
+version: 1
+namespace: rmr.core
+status: draft
+modules:
+  - module_id: rmr.topology.t7
+    input_contract: state_vector_u_v_psi_chi_rho_delta_sigma
+    output_contract: transformed_state_and_energy
+    failure_mode: token_void
+    compliance_tags: [quality_gate, deterministic_flow, traceable]
+
+  - module_id: rmr.coherence.alpha25
+    input_contract: c_t_h_t_c_in_h_in
+    output_contract: c_next_h_next_phi
+    failure_mode: token_void
+    compliance_tags: [audit_loggable, bounded_update]
+
+  - module_id: rmr.integrity.xor_crc
+    input_contract: state_bytes
+    output_contract: integrity_token
+    failure_mode: token_void
+    compliance_tags: [no_pii, deterministic_hashing]
