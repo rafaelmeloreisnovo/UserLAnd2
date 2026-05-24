@@ -1,0 +1,25 @@
+RMR Core License Notice (Repository-Scoped Addendum)
+
+Copyright (c) 2026 RMR Core Contributors
+
+This directory (`rmr-core/`) is intentionally separated as an authorial and modular work.
+Unless explicitly stated otherwise in a child file, content under `rmr-core/` is provided
+for research, architecture exploration, and controlled integration planning.
+
+1) Separation boundary
+   - This notice applies only to files inside `rmr-core/`.
+   - It does not replace, revoke, or modify repository-wide licenses outside this subtree.
+
+2) Compatibility and legal intent
+   - Intended to be compatible with existing repository license obligations.
+   - No warranty is provided; use at your own risk.
+
+3) Attribution
+   - Preserve attribution and this notice when redistributing modified copies
+     of files from `rmr-core/`, unless superseded by a more specific license file
+     in a nested directory.
+
+4) Compliance posture
+   - Engineering intent references process alignment with quality/security/privacy
+     frameworks (e.g., ISO/NIST/LGPD/GDPR concepts) as implementation guidance,
+     not legal certification.
